@@ -247,7 +247,7 @@ with st.container():
         """.format(base64.b64encode(open("logo.png", "rb").read()).decode()), unsafe_allow_html=True)
 
 if st.session_state.data is None:
-    database_and_upload_interface()
+   # database_and_upload_interface()
     # st.markdown('<div class="upload-container">', unsafe_allow_html=True)
     # st.markdown('</div>', unsafe_allow_html=True)
     # if uploaded_file is not None:
