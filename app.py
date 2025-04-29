@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-from integration_handler import database_and_upload_interface
+#from integration_handler import database_and_upload_interface
 from create_visualization import create_visualization
 from suggest_visualizations import suggest_visualizations
 from generate_column_stats import generate_column_stats
