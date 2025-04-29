@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Importing the fucntions 
-from chatbot import ollama_agent
 from integration_handler import database_and_upload_interface
 from create_visualization import create_visualization
 from suggest_visualizations import suggest_visualizations
